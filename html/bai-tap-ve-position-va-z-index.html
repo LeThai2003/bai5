@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập về position và z-index</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/bai-05/css/style-position.css">
+</head>
+<body>
+    <h2>Bài tập về position</h2>
+    <p>
+        <strong>Yêu cầu: </strong> 
+        Code các box như dưới đây. Chú ý có cả bo góc cho các element.
+    </p>
+
+    <div class="menu">
+        <ul>
+            <li>Trang chủ</li>
+            <li>Giới thiệu</li>
+            <li>Sản Phẩm</li>
+            <li>Tin tức</li>
+            <li>Liên hệ</li>
+        </ul>
+    </div>
+
+    <div class="parent">
+        <div class="child child-1">1</div>
+        <div class="child child-2">2</div>
+        <div class="child child-3">3</div>
+        <div class="child child-4">4</div>
+    </div>
+
+    <!-- <div class="call">
+        <a href="tel:123456"><i class="fa-solid fa-phone"></i></a>
+    </div> -->
+
+    <div class="content">
+        <div class="inner-content"> 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Vel, voluptates? Nisi debitis nulla, autem, impedit consequuntur cum adipisci eveniet, 
+            in numquam sed corrupti. Molestiae tenetur possimus perferendis repellendus excepturi saepe. 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, voluptates? 
+            Nisi debitis nulla, autem, impedit consequuntur cum adipisci eveniet, in numquam sed corrupti.
+             Molestiae tenetur possimus perferendis repellendus excepturi saepe. Lorem ipsum dolor sit amet, 
+             consectetur adipisicing elit. Vel, voluptates? Nisi debitis nulla, autem, impedit consequuntur 
+             cum adipisci eveniet, in numquam sed corrupti. Molestiae tenetur possimus perferendis repellendus 
+             excepturi saepe. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, voluptates? 
+             Nisi debitis nulla, autem, impedit consequuntur cum adipisci eveniet, in numquam sed corrupti. 
+             Molestiae tenetur possimus perferendis repellendus excepturi saepe. Lorem ipsum dolor sit amet, 
+             consectetur adipisicing elit. Vel, voluptates? Nisi debitis nulla, autem, impedit consequuntur 
+             cum adipisci eveniet, in numquam sed corrupti. Molestiae tenetur possimus perferendis repellendus 
+             excepturi saepe. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, voluptates? 
+             Nisi debitis nulla, autem, impedit consequuntur cum adipisci eveniet, in numquam sed corrupti. 
+             Molestiae tenetur possimus perferendis repellendus excepturi saepe
+        </div>
+    </div>
+
+    <!-- bỏ call xuống dưới vì div content = div call
+         và content có chữ là z=1 -> content sẽ che call
+        và a có z cao nên biểu tượng sẽ che chữ  -->
+    <div class="call">
+        <a href="tel:123456"><i class="fa-solid fa-phone"></i></a>
+    </div>
+</body>
+</html>
